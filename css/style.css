@@ -5,6 +5,7 @@
 
 body {
     margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
@@ -28,6 +29,7 @@ body {
 
 .proyecto {
     text-align: center;
+    font-size: 25px;
 }
 
 .parrafo{
@@ -42,4 +44,20 @@ body {
 
 .imagen {
     height: 300px;
+}
+
+.azul {
+    text-align: center;
+    font-size: 30px ;
+}
+
+.azul2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.especial {
+    background-color: aqua;
+    padding: 1%;
+    color: white;
 }
