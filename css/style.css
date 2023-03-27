@@ -95,3 +95,14 @@ body {
     background-color: rgba(0, 0, 0, 0.473);
    
 }
+
+.column20 {
+    width: 20%;
+    float: left;
+    
+
+}
+
+.blanco {
+    color: white;
+}
