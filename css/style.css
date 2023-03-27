@@ -84,3 +84,14 @@ body {
 .mapa {
     width: 80%;
 }
+
+.raro {
+    padding-left: 10%;
+    padding-top: 2%;
+
+}
+
+.negro {
+    background-color: rgba(0, 0, 0, 0.473);
+   
+}
