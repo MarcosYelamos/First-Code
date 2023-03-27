@@ -34,12 +34,18 @@ body {
 
 .parrafo{
     margin: 0;
+    
 }
 
 .column3 {
     width: 33%;
     float: left;
     padding: 6%;
+}
+
+.column2 {
+    width: 50%;
+    float: left;
 }
 
 .imagen {
@@ -60,4 +66,17 @@ body {
     background-color: aqua;
     padding: 1%;
     color: white;
+}
+
+.abajo {
+    padding-left: 10%;
+
+}
+
+.titulito {
+    font-size: 30px;
+}
+
+.gris {
+    color: gray;
 }
