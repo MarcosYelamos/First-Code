@@ -41,7 +41,6 @@ body {
     width: 33%;
     float:left;
     padding:6%;
-    margin: 0px;
 }
 
 .column2 {
@@ -125,11 +124,23 @@ body {
     margin: 0;
 }
 
+.column2es {
+    width: 50%;
+    float: left;
+}
+
 @media screen and (max-width:600px) {
     .column3 {
         width: 50%;
     }
     .column2 {
+        width: 50%;
+    }
+    .column20{
+        width: 50%;
+
+    }
+    .column30 {
         width: 50%;
     }
 }
