@@ -19,7 +19,6 @@ body {
 
 .cabecera {
     text-align: center;
-    
     background-image: url(../img/header.jpg);
     background-size:cover;
     height:100vh;
