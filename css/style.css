@@ -1,7 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+
 body {
     margin: 0%;
     
 }
+
+.row:after {
+    content: "";
+    display:flex;
+    clear: both;
+}
+
 
 .cabecera {
     text-align: center;
@@ -18,4 +30,13 @@ body {
 
 .parrafo{
     margin: 0;
+}
+
+.column3 {
+    width: 33%;
+    float: left;
+}
+
+.imagen {
+    height: 300px;
 }
