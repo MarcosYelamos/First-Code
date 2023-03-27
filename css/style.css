@@ -38,9 +38,9 @@ body {
 }
 
 .column3 {
-    width: 33%;
+    width:33%;
     float:left;
-    padding:6%;
+    padding: 6%;
 }
 
 .column2 {
@@ -140,7 +140,13 @@ body {
         width: 50%;
 
     }
+    .column2es {
+        width: 100%;
+    }
     .column30 {
         width: 50%;
+    }
+    .raro {
+        padding: 0%;
     }
 }
