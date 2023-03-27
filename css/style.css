@@ -34,13 +34,14 @@ body {
 
 .parrafo{
     margin: 0;
-    
+    text
 }
 
 .column3 {
     width: 33%;
-    float: left;
-    padding: 6%;
+    float:left;
+    padding:6%;
+    margin: 0px;
 }
 
 .column2 {
@@ -99,10 +100,36 @@ body {
 .column20 {
     width: 20%;
     float: left;
+    margin: 0;
     
 
 }
 
 .blanco {
     color: white;
+}
+
+.column30 {
+    width: 30%;
+    float: left;
+    margin: 0;
+}
+
+.negro2 {
+    background-color: black;
+    text-align: center;
+}
+
+.espacio {
+    padding-top: 2%;
+    margin: 0;
+}
+
+@media screen and (max-width:600px) {
+    .column3 {
+        width: 50%;
+    }
+    .column2 {
+        width: 50%;
+    }
 }
