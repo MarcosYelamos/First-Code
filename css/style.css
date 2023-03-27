@@ -12,11 +12,14 @@ body {
     content: "";
     display:flex;
     clear: both;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 
 .cabecera {
     text-align: center;
+    
     background-image: url(../img/header.jpg);
     background-size:cover;
     height:100vh;
@@ -35,6 +38,7 @@ body {
 .column3 {
     width: 33%;
     float: left;
+    padding: 6%;
 }
 
 .imagen {
