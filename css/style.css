@@ -63,7 +63,7 @@ body {
 }
 
 .especial {
-    background-color: aqua;
+    background-color: rgba(12, 122, 122, 0.527);
     padding: 1%;
     color: white;
 }
@@ -148,5 +148,8 @@ body {
     }
     .raro {
         padding: 0%;
+    }
+    .mapa {
+        width: 100%;
     }
 }
