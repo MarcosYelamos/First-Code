@@ -19,14 +19,23 @@ body {
 
 
 .cabecera {
-    text-align: center;
+    display: flex;
     background-image: url(../img/header.jpg);
     background-size:cover;
     height:100vh;
-    width: 100%;
-    justify-items: center;
+    width: 100%; 
+    align-items: center;
+    justify-content: center;
+}
     
-    
+.parrafo2{
+    text-align: center;
+    font-size: 40px;
+}
+.parrafo3 {
+    text-align: center;
+    padding-top: 3%;
+    font-size: 30px;
 }
 
 .proyecto {
@@ -34,18 +43,12 @@ body {
     font-size: 25px;
 }
 
-.parrafo{
-    margin: 0;
-    
-}
+
 
 .column3 {
-    width: 100%;
+    width: 33.33%;
     float:left;
-    
-    
-    
-        
+    padding: 3%;          
 }
 
 .column2 {
@@ -54,8 +57,7 @@ body {
 }
 
 .imagen {
-    height: 20%;
-    width: 20%;
+    width: 100%;
     
 }
 
@@ -89,7 +91,7 @@ body {
 }
 
 .mapa {
-    width: 80%;
+    width: 500px;
 }
 
 .raro {
@@ -143,11 +145,18 @@ body {
     }
     
     .column2 {
-        width: 50%;
+        width: 100%;
+    }
+    .mapa {
+        width: 100%;
+        margin: 0;
     }
     .column20{
         width: 50%;
 
+    }
+    .abajo {
+        padding-left: 2%;
     }
     .column2es {
         width: 100%;
@@ -156,9 +165,16 @@ body {
         width: 50%;
     }
     .raro {
-        padding: 0%;
+        padding-left: 2%;
     }
+   
+    
     .mapa {
-        width: 100%;
+        width: 96%;
+        padding-left: 2%;
+        
+    }
+    .blanco {
+        padding-left: 2%;
     }
 }
